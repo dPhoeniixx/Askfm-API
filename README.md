@@ -39,7 +39,7 @@ print AskFm.user # print user data
 ### Features
 
 1. like **( username, answer_id )**
-2. register **( username, email, password, Full_Name, GenderId[ 2 = Male, 1 = Famel ], BirthDate[28.6.1998] )**
+2. register **( username, email, password, Full_Name, GenderId[ 2 = Male, 1 = Female ], BirthDate[28.6.1998] )**
 3. follow **( username )**
 4. askSomeone **( ['username1', 'username2'], question_body, type [ anonymous, user ] )**
 5. getQuestions **( limit=defualt(25), offset=default(0), skip_shoutouts=default(false) )**
