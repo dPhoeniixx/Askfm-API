@@ -52,3 +52,7 @@ print AskFm.user # print user data
 12. getWall **( limit=default(25), from = 0 = from begin )**
 13. setAccessToken **( Access_Token )**
 14. getAccessToken **()**
+
+## Signature Pattern & Key
+
+Signature = hmacSHA1(METHOD%HOST:PORT%ENDPOINT%DATA) & key = "42E02265617E4B6DE18A6E991E4CC" 
